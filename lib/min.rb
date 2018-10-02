@@ -14,5 +14,4 @@ def get_the_min(groceries)
     item = items.sort
     item[0]
   end
-  return item[0]
 end
