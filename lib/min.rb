@@ -15,5 +15,6 @@ def get_the_min(groceries)
     item = items.sort
     array << item[0]
   end
-  array
+  alphabet = array.sort
+  alphabet[0]
 end
