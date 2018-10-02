@@ -11,7 +11,7 @@ require 'pry'
 def get_the_min(groceries)
   #code your solution here!
   groceries.map do |category, items|
-    items.sort
-    items[0]
+    thing = items.sort
+    thing[0]
   end
 end
