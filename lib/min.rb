@@ -14,5 +14,6 @@ def get_the_min(groceries)
     items.sort do |a,b|
       a <=> b
     end
+    items
   end
 end
