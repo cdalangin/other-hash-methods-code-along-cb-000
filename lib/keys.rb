@@ -14,4 +14,5 @@ def get_the_keys(groceries)
   groceries.each do |category, items|
     array << category
   end
+  array
 end
