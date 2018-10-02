@@ -10,7 +10,8 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
+  array = []
   groceries.each do |category, items|
-    category
+    array << category
   end
 end
