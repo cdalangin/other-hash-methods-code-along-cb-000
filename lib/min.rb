@@ -13,5 +13,4 @@ def get_the_min(groceries)
   groceries.map do |category, items|
     thing = items.sort
   end
-      thing[0]
 end
